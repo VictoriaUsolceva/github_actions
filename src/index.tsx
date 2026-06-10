@@ -4,8 +4,6 @@ import { BrowserRouter } from 'react-router-dom';
 import { App } from './app';
 import { Analytic } from './context/analityc';
 import './styles.css';
-import dotenv from 'dotenv';
-dotenv.config();
 
 const domNode = document.getElementById('root') as HTMLDivElement;
 const root = createRoot(domNode);
